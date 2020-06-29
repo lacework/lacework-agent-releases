@@ -1,3 +1,11 @@
+v2.10.56 
+Lacework Agent Release notes
+https://support.lacework.com/hc/en-us/articles/360046220973-April-2020-Agent-Release
+
+Lacework Agent Docker image
+docker pull lacework/datacollector:2.10.56
+---------------------
+
 v2.10.6 
 Lacework Agent Release notes
 https://support.lacework.com/hc/en-us/articles/360047558694-January-2020-Agent-Release
