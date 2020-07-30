@@ -15,6 +15,7 @@ You can also install the agent from the Lacework Console. For a listing of the d
 ## Install Prerequisites
 Complete the following prerequisites steps before starting any of the agent install procedures below.
 1. Verify that the Lacework agent supports the distribution installed your machine. For more information, see [Supported Operating Systems](https://support.lacework.com/hc/en-us/articles/360005230014).
+2. Use sed (GNU sed) 4.2.2 in the procedures below. 
 2. Download the release package ```release.tgz``` and the ```checksum.txt``` files from this Lacework GitHub Agent Release repository, where ```release``` is replaced by the agent release number.
     1. In the right frame, click **Releases** to view all the available agent releases.  
     2. Find a release and click ```release.tgz``` to download the file that contains the agent installers, where ```release``` is replaced by the agent release number.
