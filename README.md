@@ -88,8 +88,8 @@ For single host installations, Lacework recommends using the installation script
    ```
 3. Use ```sed``` to  replace ```LaceworkAccessToken``` with the valid agent access token in the ```docker-compose.yml``` and ```docker-compose-v3.yml``` files.
    ```
-   $ sed -i.-i.bak "s/\${LaceworkAccessToken}/${token}/g" docker-compose.yml
-   $ sed -i.-i.bak "s/\${LaceworkAccessToken}/${token}/g" docker-compose-v3.yml
+   $ sed -i.bak "s/\${LaceworkAccessToken}/${token}/g" docker-compose.yml
+   $ sed -i.bak "s/\${LaceworkAccessToken}/${token}/g" docker-compose-v3.yml
    ```
 4. Install the agent by following the instructions in [Install using Docker Swarm](https://support.lacework.com/hc/en-us/articles/360005321473).
    On the **Releases** page of this site, find the appropriate ```docker pull``` command for a specific release under the **Lacework Agent Docker image** heading.
