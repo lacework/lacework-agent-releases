@@ -1,9 +1,19 @@
+v3.0.47
+Lacework Agent Release notes
+https://support.lacework.com/hc/en-us/articles/360052720713
+
+Lacework Agent Docker image
+docker pull lacework/datacollector:3.0.47
+docker pull lacework/datacollector:3.0.47-alpine
+---------------------
+
 v2.12.1 
 Lacework Agent Release notes
 https://support.lacework.com/hc/en-us/articles/360050043014-June-2020-Agent-Release
 
 Lacework Agent Docker image
 docker pull lacework/datacollector:2.12.1
+docker pull lacework/datacollector:2.12.1-alpine
 ---------------------
 
 v2.11.32 
