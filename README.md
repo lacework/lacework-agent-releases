@@ -95,7 +95,6 @@ For single host installations, Lacework recommends using the installation script
 4. Install the agent by following the instructions in [Install using Docker Swarm](https://support.lacework.com/hc/en-us/articles/360005321473).
    On the **Releases** page of this site, find the appropriate ```docker pull``` command for a specific release under the **Lacework Agent Docker image** heading.
 
-<!-- The Helm install instructions are not yet available on Zendesk.
 ## Install using Helm Chart
 1. Complete the [prerequisites](#install-prerequisites) steps.
 2. Set the ```token``` environment variable equal to the agent token copied from the Lacework Console.
@@ -110,8 +109,7 @@ For single host installations, Lacework recommends using the installation script
    ```
    $ sed -i "/env:/s/$/${custom tag}/" /tmp/helm/lacework-agent/values.yaml
    ```
-5. Install the agent by following the instructions in [TODO](todo).
+5. Install the agent by following the helm instructions in [Deploy on Kubernetes](https://support.lacework.com/hc/en-us/articles/360005263034-Deploy-on-Kubernetes).
 
--->
 # Lacework Agent Documentation
 For information about supported operating systems, how to configure the agent, agent features, and Workload dossiers, see [Lacework for Workload Security](https://support.lacework.com/hc/en-us/categories/360001044834-Lacework-for-Workload-Security).
