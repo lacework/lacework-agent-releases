@@ -1,3 +1,15 @@
+v3.4.2
+Lacework Agent Release notes
+https://support.lacework.com/hc/en-us/articles/1500000522101-December-2020-Agent-Release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:3.4.2
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:3.4.2-alpine
+docker pull lacework/datacollector:3.4.2-sidecar
+---------------------
+
 v3.3.5
 Lacework Agent Release notes
 https://support.lacework.com/hc/en-us/articles/360059603473-November-2020-Agent-Release
