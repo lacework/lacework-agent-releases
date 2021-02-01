@@ -3,6 +3,9 @@
 # Lacework Agent Releases
 This Lacework agent GitHub site provides the officially supported Lacework agent releases. From this site, you can download and install Lacework agent releases. 
 
+# Lacework Agent Documentation
+For the Lacework Agent Documentation such as information about supported operating systems, how to configure the agent, agent features, Workload dossiers, AWS Fargate, and more, see [Lacework for Workload Security](https://support.lacework.com/hc/en-us/categories/360001044834-Lacework-for-Workload-Security).
+
 # Releases
 In the right frame, click **Releases** to view all the available agent releases.
 Under the **Assets**, all the release download files are listed. These download files contain the agent installers. In addition, each release contains a direct link to the specific agent release notes and the ```docker pull``` command for pulling down a Lacework docker install image. 
@@ -111,5 +114,3 @@ For single host installations, Lacework recommends using the installation script
    ```
 5. Install the agent by following the helm instructions in [Deploy on Kubernetes](https://support.lacework.com/hc/en-us/articles/360005263034-Deploy-on-Kubernetes).
 
-# Lacework Agent Documentation
-For information about supported operating systems, how to configure the agent, agent features, and Workload dossiers, see [Lacework for Workload Security](https://support.lacework.com/hc/en-us/categories/360001044834-Lacework-for-Workload-Security).
