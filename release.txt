@@ -1,3 +1,47 @@
+5.0.0
+Lacework Agent Release Notes
+https://support.lacework.com/hc/en-us/articles/4409858524819-November-2021-Agent-Release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:5.0.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:5.0.0-alpine
+docker pull lacework/datacollector:5.0.0-sidecar
+
+4.3.0
+Lacework Agent Release Notes
+https://support.lacework.com/hc/en-us/articles/4408084055315-October-2021-Agent-Release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:4.3.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:4.3.0-alpine
+docker pull lacework/datacollector:4.3.0-sidecar
+
+4.2.0
+Lacework Agent Release Notes
+https://support.lacework.com/hc/en-us/articles/4406217892499-September-2021-Agent-Release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:4.2.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:4.2.0-alpine
+docker pull lacework/datacollector:4.2.0-sidecar
+
+4.1.62
+Lacework Agent Release Notes
+https://support.lacework.com/hc/en-us/articles/4404718801555-August-2021-Agent-Release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:4.1.62
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:4.1.62-alpine
+docker pull lacework/datacollector:4.1.62-sidecar
+
 4.0.32
 Lacework Agent Release Notes
 https://support.lacework.com/hc/en-us/articles/4403282871187-July-2021-Agent-Release
