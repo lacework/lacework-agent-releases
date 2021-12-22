@@ -1,3 +1,14 @@
+5.1.0
+Lacework Agent Release Notes
+https://docs.lacework.com/releases/2021-12-18_december-2021-agent-release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:5.1.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:5.1.0-alpine
+docker pull lacework/datacollector:5.1.0-sidecar
+
 5.0.0
 Lacework Agent Release Notes
 https://support.lacework.com/hc/en-us/articles/4409858524819-November-2021-Agent-Release
