@@ -1,3 +1,18 @@
+5.4.1
+Lacework Agent Release Notes
+https://docs.lacework.com/releases/2022-03-march-2022-agent-release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:5.4.1
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:5.4.1-alpine
+docker pull lacework/datacollector:5.4.1-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
+
 5.2.0
 Lacework Agent Release Notes
 https://docs.lacework.com/releases/2022-02-02_february-2022-agent-release
@@ -20,6 +35,7 @@ docker pull lacework/datacollector:5.1.0
 Lacework Agent Docker image (AMD64)
 docker pull lacework/datacollector:5.1.0-alpine
 docker pull lacework/datacollector:5.1.0-sidecar
+---------------------
 
 5.0.0
 Lacework Agent Release Notes
@@ -31,6 +47,7 @@ docker pull lacework/datacollector:5.0.0
 Lacework Agent Docker image (AMD64)
 docker pull lacework/datacollector:5.0.0-alpine
 docker pull lacework/datacollector:5.0.0-sidecar
+---------------------
 
 4.3.0
 Lacework Agent Release Notes
@@ -42,6 +59,7 @@ docker pull lacework/datacollector:4.3.0
 Lacework Agent Docker image (AMD64)
 docker pull lacework/datacollector:4.3.0-alpine
 docker pull lacework/datacollector:4.3.0-sidecar
+---------------------
 
 4.2.0
 Lacework Agent Release Notes
@@ -53,6 +71,7 @@ docker pull lacework/datacollector:4.2.0
 Lacework Agent Docker image (AMD64)
 docker pull lacework/datacollector:4.2.0-alpine
 docker pull lacework/datacollector:4.2.0-sidecar
+---------------------
 
 4.1.62
 Lacework Agent Release Notes
@@ -64,6 +83,7 @@ docker pull lacework/datacollector:4.1.62
 Lacework Agent Docker image (AMD64)
 docker pull lacework/datacollector:4.1.62-alpine
 docker pull lacework/datacollector:4.1.62-sidecar
+---------------------
 
 4.0.32
 Lacework Agent Release Notes
