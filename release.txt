@@ -1,3 +1,18 @@
+5.4.2
+Lacework Agent Release Notes
+https://docs.lacework.com/releases/2022-03-07_march-2022-agent-release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:5.4.2
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:5.4.2-alpine
+docker pull lacework/datacollector:5.4.2-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
+
 5.4.1
 Lacework Agent Release Notes
 https://docs.lacework.com/releases/2022-03-march-2022-agent-release
