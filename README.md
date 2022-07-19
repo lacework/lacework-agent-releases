@@ -10,20 +10,20 @@ For information about supported Linux operating systems, how to configure the ag
 
 # Releases
 
-In the right frame, click **Releases** to view all the available agent releases.
+In the right frame, click **Releases** to view all the available Linux agent releases.
 The **Assets** section for each release lists all the release download files. These files contain the agent installers. In addition, each release contains a link to the specific agent release notes and the `docker pull` command for pulling down a Lacework docker install image. 
 To view the release notes for all Linux agent releases, see [Linux Agent Release Notes](https://docs.lacework.com/releases/category/linux-agent-releases).
 
-# Install Agents
+# Install Linux Agent
 
-This README.md file provides instructions for installing the agent from this GitHub repository.
+This README.md file provides instructions for installing the Lacework Linux agent from this GitHub repository.
 You can also install the agent from the Lacework Console. For information about the different installation methods, see [Linux Agent Installation Methods](https://docs.lacework.com/onboarding/agent-installation-prerequisites).
 
 ## Installation Prerequisites
 
-Complete the following steps before you install the agent:
+Complete the following steps before you install the Linux agent:
 
-1. Ensure that the Lacework Linux agent supports the distribution installed on your machine. For more information, see [Supported Operating Systems](https://support.lacework.com/hc/en-us/articles/360005230014).
+1. Ensure that the Linux agent supports the distribution installed on your machine. For more information, see [Supported Operating Systems](https://support.lacework.com/hc/en-us/articles/360005230014).
 2. Use sed (GNU sed) version 4.2.2 or higher in the procedures below. 
 2. Download the release package `release.tgz` (where `release` is the agent release number) and the `checksum_sha256.txt` files from this GitHub repository. 
     1. In the right frame, click **Releases** to view all the available agent releases.  
@@ -70,7 +70,7 @@ Complete the following steps before you install the agent:
 7. Using the Lacework Console, create an agent access token by following the instructions in [Create Agent Access Tokens](https://docs.lacework.com/onboarding/create-agent-access-tokens-and-download-agent-installers).
 8. In the Lacework Console, click the **...** icon in the row for the token and select **Copy** to copy the access token.
 
-## Install Using the `install.sh` Script
+## Install Linux Agent Using the `install.sh` Script
 
 For single host installations, Lacework recommends using the `install.sh` installation script.
 1. Complete the [prerequisites](#installation-prerequisites) steps.
@@ -88,7 +88,7 @@ For single host installations, Lacework recommends using the `install.sh` instal
 
 4. Run the `install.sh` script to install the agent by following the instructions in [Run the Lacework Agent Installation Script](https://docs.lacework.com/onboarding/use-the-lacework-installation-script-installsh).
 
-## Install Using the Lacework Agent Chef Recipe
+## Install Linux Agent Using the Chef Recipe
 
 1. Complete the [prerequisites](#installation-prerequisites) steps.
 2. Set the `token` environment variable equal to the agent access token you copied from the Lacework Console.
@@ -117,7 +117,7 @@ For single host installations, Lacework recommends using the `install.sh` instal
 
 6. Install the agent by following the instructions in [Install with Chef](https://docs.lacework.com/onboarding/install-with-chef).
 
-## Install Using Daemonset Deployment Files for Kubernetes
+## Install Linux Agent Using Daemonset Deployment Files for Kubernetes
 
 1. Complete the [prerequisites](#installation-prerequisites) steps.
 2. Set the `token` environment variable equal to the agent access token you copied from the Lacework Console.
@@ -135,7 +135,7 @@ For single host installations, Lacework recommends using the `install.sh` instal
 4. Install the agent on Kubernetes by following the instructions in [Deploy on Kubernetes](https://docs.lacework.com/onboarding/deploy-on-kubernetes).
    On the **Releases** page of this site, find the appropriate ```docker pull``` command in the **Lacework Agent Docker Images** section for a specific release.
 
-## Install Using Docker Swarm Deployment Files
+## Install Linux Agent Using Docker Swarm Deployment Files
 
 1. Complete the [prerequisites](#installation-prerequisites) steps.
 2. Set the `token` environment variable equal to the agent token you copied from the Lacework Console.
@@ -154,7 +154,7 @@ For single host installations, Lacework recommends using the `install.sh` instal
 4. Install the agent by following the instructions in [Install using Docker Swarm](https://docs.lacework.com/onboarding/install-using-docker-compose).
    On the **Releases** page of this site, find the appropriate ```docker pull``` command in the **Lacework Agent Docker Images** section for a specific release.
 
-## Install Using Helm Chart
+## Install Linux Agent Using Helm Chart
 
 1. Complete the [prerequisites](#installation-prerequisites) steps.
 2. Set the `token` environment variable equal to the agent token copied from the Lacework Console.
