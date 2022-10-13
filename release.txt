@@ -1,3 +1,17 @@
+6.1.0
+Lacework Agent Release Notes
+https://docs.lacework.com/releases/2022-12_october-agent-release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:6.1.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:6.1.0-alpine
+docker pull lacework/datacollector:6.1.0-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
 6.0.2
 Lacework Agent Release Notes
 https://docs.lacework.com/releases/2022-8_september-agent-release
