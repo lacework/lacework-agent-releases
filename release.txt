@@ -1,3 +1,17 @@
+6.12.2
+Lacework Agent Release Notes
+https://docs.lacework.net/releases/2024-02-linux-agent-release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:6.12.2
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:6.12.2-alpine
+docker pull lacework/datacollector:6.12.2-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
 6.11.2
 Lacework Agent Release Notes
 https://docs.lacework.net/releases/2024-01-linux-agent-release
