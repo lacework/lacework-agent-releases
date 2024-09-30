@@ -1,3 +1,17 @@
+7.1.4
+Lacework Agent Release Notes
+https://docs.lacework.net/releases/2024-08-linux-agent-release
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:7.1.4
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:7.1.4-alpine
+docker pull lacework/datacollector:7.1.4-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
 7.1.2
 Lacework Agent Release Notes
 https://docs.lacework.net/releases/2024-08-linux-agent-release
