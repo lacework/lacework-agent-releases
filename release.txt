@@ -1,3 +1,17 @@
+7.10.0
+Lacework Agent Release Notes
+https://docs.fortinet.com/document/forticnapp/latest/release-notes/412967
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:7.10.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:7.10.0-alpine
+docker pull lacework/datacollector:7.10.0-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
 7.9.0
 Lacework Agent Release Notes
 https://docs.fortinet.com/document/lacework-forticnapp/latest/release-notes/208708/august-2025-linux-agent-releases
