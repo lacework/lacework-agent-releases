@@ -1,3 +1,17 @@
+8.2.0
+Lacework Agent Release Notes
+https://docs.fortinet.com/document/forticnapp/latest/release-notes?cshid=LINUX_AGENT_8_2_X_RELEASE_NOTES
+
+Lacework Agent multi-arch Docker image (AMD64 and ARM64)
+docker pull lacework/datacollector:8.2.0
+
+Lacework Agent Docker image (AMD64)
+docker pull lacework/datacollector:8.2.0-alpine
+docker pull lacework/datacollector:8.2.0-sidecar
+
+Lacework Agent Certified UBI Image (AMD64)
+podman pull registry.connect.redhat.com/lacework/lacework-agent
+---------------------
 8.1.0
 Lacework Agent Release Notes
 https://docs.fortinet.com/document/forticnapp/latest/release-notes/556850/linux-agent-8-1-x-release-notes#8.1.0
